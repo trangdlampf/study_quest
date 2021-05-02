@@ -1,4 +1,4 @@
-// not tested yet
+// Example of Bubble Sort for Array of Numbers
 #include <bits/stdc++.h>
 using namespace std;
 
