@@ -37,7 +37,7 @@ int main()
     second->next = third;
   
     third->data = 33;       // assign data to third node
-    third->next = NULL;
+    third->next = NULL;     // pointer of third is NULL so this terminates the Linked_List
   
     printList(first);
   
