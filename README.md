@@ -1,1 +1,1 @@
-# study_quest
+# study questions
