@@ -1,4 +1,4 @@
-// Traverse Linked List
+// Traverse of a Linked List and Count the number of Linked List
 #include <bits/stdc++.h>
 using namespace std;
   
@@ -8,20 +8,24 @@ public:
     Node* next;
 };
   
-// Prints contents of linked list
+// This function prints contents of linked list
+// starting from the given node
 void printList(Node* n)
 {
+    int count = 0;
     while (n != NULL) {
         cout << n->data << " ";
         n = n->next;
+        count = count + 1;
     }
+    cout << "Count of Linked Lists: " << count << ".";
 }
   
 // Main code
 int main()
 {
-    // creates empty Nodes
-    Node* first = NULL;   
+    
+    Node* first = NULL;
     Node* second = NULL;
     Node* third = NULL;
   
@@ -40,6 +44,6 @@ int main()
     third->next = NULL;     // pointer of third is NULL so this terminates the Linked_List
   
     printList(first);
-  
+    
     return 0;
 }
