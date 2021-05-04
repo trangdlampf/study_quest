@@ -1,2 +1,18 @@
-nested loop: O(n^2) // O of n squared
+nested loop with addition: O(n^2) // O of n squared
 
+nested loop with multiplication: O(n)
+
+do-while loop: O(n)
+
+recursive (of if-then and for-loop): O(2^n) // O of 2 to the power of n
+
+
+
+
+
+
+
+
+
+
+https://www.educative.io/blog/top-cpp-coding-interview-questions
