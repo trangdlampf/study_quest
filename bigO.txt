@@ -1,0 +1,2 @@
+nested loop: O(n^2) // O of n squared
+
